@@ -70,10 +70,11 @@ public class GameField extends JPanel implements ActionListener {
         }
         else {
             String str = "Game Over";
-          //  Font f= new Font("Arial",16,Font.BOLD);
+            Font f= new Font("Serif", Font.BOLD, 30);
             g.setColor(Color.red);
-         //   g.setFont(f);
-            g.drawString(str,125,SIZE/2);
+            g.setFont(f);
+            g.drawString(str,90,SIZE/2);
+
 
         }
     }
